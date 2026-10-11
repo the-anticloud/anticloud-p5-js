@@ -1,0 +1,10 @@
+{
+  "project": "P5_JS",
+  "category": "ARTIST_TOOLS",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTIST_TOOLS\\P5_JS",
+  "status": "failed",
+  "reason": "no 40-hex git HEAD SHA (head='REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE'; sanitized clone or .git absent)",
+  "files_count": 394,
+  "lines_of_code": 35848,
+  "sha": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+}
