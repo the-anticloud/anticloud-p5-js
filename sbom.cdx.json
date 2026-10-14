@@ -1,0 +1,264 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:61201f7a-6e0e-5dad-92ce-4c0b5c1bfec2",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:04:07Z",
+  "component": {
+   "type": "application",
+   "name": "P5_JS",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/P5_JS@83b357604d34",
+   "purl": "pkg:generic/anticloud/P5_JS@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "audioworklet-polyfill",
+   "version": "^1.1.2",
+   "purl": "pkg:npm/audioworklet-polyfill@^1.1.2",
+   "bom-ref": "npm/audioworklet-polyfill@^1.1.2"
+  },
+  {
+   "type": "library",
+   "name": "p5",
+   "version": "^1.6.0",
+   "purl": "pkg:npm/p5@^1.6.0",
+   "bom-ref": "npm/p5@^1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "sinon",
+   "version": "^9.2.4",
+   "purl": "pkg:npm/sinon@^9.2.4",
+   "bom-ref": "npm/sinon@^9.2.4"
+  },
+  {
+   "type": "library",
+   "name": "startaudiocontext",
+   "version": "^1.2.1",
+   "purl": "pkg:npm/startaudiocontext@^1.2.1",
+   "bom-ref": "npm/startaudiocontext@^1.2.1"
+  },
+  {
+   "type": "library",
+   "name": "tone",
+   "version": "0.10.0",
+   "purl": "pkg:npm/tone@0.10.0",
+   "bom-ref": "npm/tone@0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "@babel/core",
+   "version": "^7.21.8",
+   "purl": "pkg:npm/@babel/core@^7.21.8",
+   "bom-ref": "npm/@babel/core@^7.21.8"
+  },
+  {
+   "type": "library",
+   "name": "@babel/preset-env",
+   "version": "^7.21.5",
+   "purl": "pkg:npm/@babel/preset-env@^7.21.5",
+   "bom-ref": "npm/@babel/preset-env@^7.21.5"
+  },
+  {
+   "type": "library",
+   "name": "almond",
+   "version": "^0.3.3",
+   "purl": "pkg:npm/almond@^0.3.3",
+   "bom-ref": "npm/almond@^0.3.3"
+  },
+  {
+   "type": "library",
+   "name": "amdclean",
+   "version": "^2.7.0",
+   "purl": "pkg:npm/amdclean@^2.7.0",
+   "bom-ref": "npm/amdclean@^2.7.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-loader",
+   "version": "^8.3.0",
+   "purl": "pkg:npm/babel-loader@^8.3.0",
+   "bom-ref": "npm/babel-loader@^8.3.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-plugin-preval",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/babel-plugin-preval@^3.0.1",
+   "bom-ref": "npm/babel-plugin-preval@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "chai",
+   "version": "3.4.1",
+   "purl": "pkg:npm/chai@3.4.1",
+   "bom-ref": "npm/chai@3.4.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint-config-prettier",
+   "version": "^6.15.0",
+   "purl": "pkg:npm/eslint-config-prettier@^6.15.0",
+   "bom-ref": "npm/eslint-config-prettier@^6.15.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-prettier",
+   "version": "^3.4.1",
+   "purl": "pkg:npm/eslint-plugin-prettier@^3.4.1",
+   "bom-ref": "npm/eslint-plugin-prettier@^3.4.1"
+  },
+  {
+   "type": "library",
+   "name": "grunt",
+   "version": "^1.6.1",
+   "purl": "pkg:npm/grunt@^1.6.1",
+   "bom-ref": "npm/grunt@^1.6.1"
+  },
+  {
+   "type": "library",
+   "name": "grunt-cli",
+   "version": "^1.4.3",
+   "purl": "pkg:npm/grunt-cli@^1.4.3",
+   "bom-ref": "npm/grunt-cli@^1.4.3"
+  },
+  {
+   "type": "library",
+   "name": "grunt-contrib-connect",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/grunt-contrib-connect@^3.0.0",
+   "bom-ref": "npm/grunt-contrib-connect@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "grunt-decomment",
+   "version": "^0.2.4",
+   "purl": "pkg:npm/grunt-decomment@^0.2.4",
+   "bom-ref": "npm/grunt-decomment@^0.2.4"
+  },
+  {
+   "type": "library",
+   "name": "grunt-eslint",
+   "version": "^20.2.0",
+   "purl": "pkg:npm/grunt-eslint@^20.2.0",
+   "bom-ref": "npm/grunt-eslint@^20.2.0"
+  },
+  {
+   "type": "library",
+   "name": "grunt-githooks",
+   "version": "^0.6.0",
+   "purl": "pkg:npm/grunt-githooks@^0.6.0",
+   "bom-ref": "npm/grunt-githooks@^0.6.0"
+  },
+  {
+   "type": "library",
+   "name": "grunt-mocha",
+   "version": "^1.2.0",
+   "purl": "pkg:npm/grunt-mocha@^1.2.0",
+   "bom-ref": "npm/grunt-mocha@^1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "grunt-open",
+   "version": "^0.2.4",
+   "purl": "pkg:npm/grunt-open@^0.2.4",
+   "bom-ref": "npm/grunt-open@^0.2.4"
+  },
+  {
+   "type": "library",
+   "name": "grunt-webpack",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/grunt-webpack@^5.0.0",
+   "bom-ref": "npm/grunt-webpack@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "mocha",
+   "version": "^10.2.0",
+   "purl": "pkg:npm/mocha@^10.2.0",
+   "bom-ref": "npm/mocha@^10.2.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^2.8.8",
+   "purl": "pkg:npm/prettier@^2.8.8",
+   "bom-ref": "npm/prettier@^2.8.8"
+  },
+  {
+   "type": "library",
+   "name": "raw-loader",
+   "version": "^4.0.2",
+   "purl": "pkg:npm/raw-loader@^4.0.2",
+   "bom-ref": "npm/raw-loader@^4.0.2"
+  },
+  {
+   "type": "library",
+   "name": "tslint-config-prettier",
+   "version": "^1.18.0",
+   "purl": "pkg:npm/tslint-config-prettier@^1.18.0",
+   "bom-ref": "npm/tslint-config-prettier@^1.18.0"
+  },
+  {
+   "type": "library",
+   "name": "uglify-loader",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/uglify-loader@^3.0.0",
+   "bom-ref": "npm/uglify-loader@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "uglifyjs-webpack-plugin",
+   "version": "^2.2.0",
+   "purl": "pkg:npm/uglifyjs-webpack-plugin@^2.2.0",
+   "bom-ref": "npm/uglifyjs-webpack-plugin@^2.2.0"
+  },
+  {
+   "type": "library",
+   "name": "webpack",
+   "version": "^4.46.0",
+   "purl": "pkg:npm/webpack@^4.46.0",
+   "bom-ref": "npm/webpack@^4.46.0"
+  },
+  {
+   "type": "library",
+   "name": "webpack-auto-inject-version",
+   "version": "^1.2.2",
+   "purl": "pkg:npm/webpack-auto-inject-version@^1.2.2",
+   "bom-ref": "npm/webpack-auto-inject-version@^1.2.2"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
