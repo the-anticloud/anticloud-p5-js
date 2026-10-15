@@ -1,0 +1,924 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "P5_JS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARTIST_TOOLS\\P5_JS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 394,
+    "source_files_scanned": 184,
+    "lines_of_code": 35848,
+    "languages": {
+      ".js": 187,
+      ".html": 109,
+      ".mp3": 17,
+      ".ogg": 16,
+      ".txt": 11,
+      "(none)": 10,
+      ".png": 9,
+      ".json": 7,
+      ".svg": 6,
+      ".css": 4,
+      ".map": 3,
+      ".md": 2,
+      ".frag": 2,
+      ".jpg": 2,
+      ".eot": 2
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 31,
+    "unique": 31,
+    "by_ecosystem": {
+      "npm": 31
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "audioworklet-polyfill",
+        "version": "^1.1.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "p5",
+        "version": "^1.6.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "startaudiocontext",
+        "version": "^1.2.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tone",
+        "version": "0.10.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/core",
+        "version": "^7.21.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-env",
+        "version": "^7.21.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "almond",
+        "version": "^0.3.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "amdclean",
+        "version": "^2.7.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-loader",
+        "version": "^8.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-plugin-preval",
+        "version": "^3.0.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "chai",
+        "version": "3.4.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-config-prettier",
+        "version": "^6.15.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-prettier",
+        "version": "^3.4.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt",
+        "version": "^1.6.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-cli",
+        "version": "^1.4.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-contrib-connect",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-decomment",
+        "version": "^0.2.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-eslint",
+        "version": "^20.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-githooks",
+        "version": "^0.6.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-mocha",
+        "version": "^1.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-open",
+        "version": "^0.2.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "grunt-webpack",
+        "version": "^5.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mocha",
+        "version": "^10.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^2.8.8",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "raw-loader",
+        "version": "^4.0.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tslint-config-prettier",
+        "version": "^1.18.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "uglify-loader",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "uglifyjs-webpack-plugin",
+        "version": "^2.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "webpack",
+        "version": "^4.46.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "webpack-auto-inject-version",
+        "version": "^1.2.2",
+        "source_file": "package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 49,
+    "files_with_findings": 46,
+    "severity": {
+      "high": 3,
+      "medium": 0,
+      "low": 46
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 3,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "docs/reference/assets/js/reference.js",
+            "line": 2567,
+            "cwe": "CWE-95",
+            "snippet": "var params = route.exec(fragment).slice(1);"
+          },
+          {
+            "severity": "high",
+            "file": "docs/js/p5.js",
+            "line": 1,
+            "cwe": "CWE-95",
+            "snippet": "!function(){var shim=function(){window.requestDraw=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequ"
+          },
+          {
+            "severity": "high",
+            "file": "docs/js/render.js",
+            "line": 154,
+            "cwe": "CWE-95",
+            "snippet": "eval(runnable);"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 13,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Envelope.js",
+            "line": 257,
+            "cwe": "CWE-",
+            "snippet": "//todo"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Gain.js",
+            "line": 72,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Helpers.js",
+            "line": 92,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Listener3d.js",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Noise.js",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "//TODO: test noise buffer generator functions"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.OnsetDetect.js",
+            "line": 13,
+            "cwe": "CWE-",
+            "snippet": "//TODO : test update functions by mocking or using a FFT"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Oscillator.js",
+            "line": 189,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Panner3d.js",
+            "line": 32,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.PeakDetect.js",
+            "line": 19,
+            "cwe": "CWE-",
+            "snippet": "//TODO : test update, onPeak functions by mocking or using a FFT"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Pulse.js",
+            "line": 53,
+            "cwe": "CWE-",
+            "snippet": "//TODO"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.SoundFile.js",
+            "line": 666,
+            "cwe": "CWE-",
+            "snippet": "//todo"
+          },
+          {
+            "severity": "low",
+            "file": "src/errorHandler.js",
+            "line": 35,
+            "cwe": "CWE-",
+            "snippet": "return err; // TODO: is this really a constructor?"
+          },
+          {
+            "severity": "low",
+            "file": "docs/reference/assets/js/reference.js",
+            "line": 5480,
+            "cwe": "CWE-",
+            "snippet": "// TODO: maybe style special characters inside a regexp as punctuation."
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 33,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "Gruntfile.js",
+            "line": 46,
+            "cwe": "CWE-319",
+            "snippet": "path: 'http://localhost:8000/test',"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.Reverb.js",
+            "line": 150,
+            "cwe": "CWE-319",
+            "snippet": "'http://badURL.mp3',"
+          },
+          {
+            "severity": "low",
+            "file": "test/tests/p5.SoundFile.js",
+            "line": 88,
+            "cwe": "CWE-319",
+            "snippet": "sf.url = p5.prototype._checkFileFormats('http://badURL.mp3');"
+          },
+          {
+            "severity": "low",
+            "file": "src/audiocontext.js",
+            "line": 16,
+            "cwe": "CWE-319",
+            "snippet": "* 'http://webaudio.github.io/web-audio-api/'>Web Audio API"
+          },
+          {
+            "severity": "low",
+            "file": "src/audioin.js",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "*  <p><em>Note: This uses the <a href=\"http://caniuse.com/stream\">getUserMedia/"
+          },
+          {
+            "severity": "low",
+            "file": "src/delay.js",
+            "line": 63,
+            "cwe": "CWE-319",
+            "snippet": "*  <a href=\"http://www.w3.org/TR/webaudio/#DelayNode\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/distortion.js",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "* Adapted from [Kevin Ennis on StackOverflow](http://stackoverflow.com/questions/22312841/waveshaper-node-in-webaudio-how-to-emulate-distortion)"
+          },
+          {
+            "severity": "low",
+            "file": "src/fft.js",
+            "line": 387,
+            "cwe": "CWE-319",
+            "snippet": "*  <a href=\"http://en.wikipedia.org/wiki/Spectral_centroid\" target=\"_blank\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/filter.js",
+            "line": 89,
+            "cwe": "CWE-319",
+            "snippet": "*  <a href=\"http://www.w3.org/TR/webaudio/#BiquadFilterNode\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/helpers.js",
+            "line": 121,
+            "cwe": "CWE-319",
+            "snippet": "*  <a href=\"http://media.io/\">Here</a> is a free online file"
+          },
+          {
+            "severity": "low",
+            "file": "src/peakDetect.js",
+            "line": 30,
+            "cwe": "CWE-319",
+            "snippet": "*  href=\"http://www.airtightinteractive.com/2013/10/making-audio-reactive-visuals/\""
+          },
+          {
+            "severity": "low",
+            "file": "src/pulse.js",
+            "line": 13,
+            "cwe": "CWE-319",
+            "snippet": "*  http://p5js.org/reference/#/p5.Oscillator\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/reverb.js",
+            "line": 269,
+            "cwe": "CWE-319",
+            "snippet": "*  <a href=\"http://www.w3.org/TR/webaudio/#ConvolverNode\">"
+          },
+          {
+            "severity": "low",
+            "file": "src/shims.js",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "src/soundfile.js",
+            "line": 1675,
+            "cwe": "CWE-319",
+            "snippet": "'This sketch may require a server to load external files. Please see http://bit.ly/1qcInwS'"
+          },
+          {
+            "severity": "low",
+            "file": "src/audioWorklet/ringBuffer.js",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "examples/spatial_panning_listener/boid.js",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "// http://natureofcode.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/spatial_panning_listener/flock.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://natureofcode.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/markov_music/sketch.js",
+            "line": 213,
+            "cwe": "CWE-319",
+            "snippet": "// http://blog.benoitvallon.com/data-structures-in-javascript/the-graph-data-structure/"
+          },
+          {
+            "severity": "low",
+            "file": "examples/loadSound_404ErrorHandling/sketch.js",
+            "line": 5,
+            "cwe": "CWE-319",
+            "snippet": "loadSound('http://badURL.mp3', soundReady, soundError);"
+          },
+          {
+            "severity": "low",
+            "file": "examples/learningProcessingExamples/10_mic_threshold/sketch.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.learningprocessing.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/learningProcessingExamples/08_amplitude_analysis/sketch.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.learningprocessing.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/learningProcessingExamples/07_envelope/sketch.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.learningprocessing.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/learningProcessingExamples/06_oscillator_frequency/sketch.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.learningprocessing.com"
+          },
+          {
+            "severity": "low",
+            "file": "examples/learningProcessingExamples/06_noise/sketch.js",
+            "line": 3,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.learningprocessing.com"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "docs/reference/assets/js/reference.js",
+            "line": 4483,
+            "cwe": "CWE-1336",
+            "snippet": "function suggestionTemplate(context) {"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:61201f7a-6e0e-5dad-92ce-4c0b5c1bfec2",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:42:02Z",
+      "component": {
+        "type": "application",
+        "name": "P5_JS",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/P5_JS@83b357604d34",
+        "purl": "pkg:generic/anticloud/P5_JS@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "audioworklet-polyfill",
+        "version": "^1.1.2",
+        "purl": "pkg:npm/audioworklet-polyfill@^1.1.2",
+        "bom-ref": "npm/audioworklet-polyfill@^1.1.2"
+      },
+      {
+        "type": "library",
+        "name": "p5",
+        "version": "^1.6.0",
+        "purl": "pkg:npm/p5@^1.6.0",
+        "bom-ref": "npm/p5@^1.6.0"
+      },
+      {
+        "type": "library",
+        "name": "sinon",
+        "version": "^9.2.4",
+        "purl": "pkg:npm/sinon@^9.2.4",
+        "bom-ref": "npm/sinon@^9.2.4"
+      },
+      {
+        "type": "library",
+        "name": "startaudiocontext",
+        "version": "^1.2.1",
+        "purl": "pkg:npm/startaudiocontext@^1.2.1",
+        "bom-ref": "npm/startaudiocontext@^1.2.1"
+      },
+      {
+        "type": "library",
+        "name": "tone",
+        "version": "0.10.0",
+        "purl": "pkg:npm/tone@0.10.0",
+        "bom-ref": "npm/tone@0.10.0"
+      },
+      {
+        "type": "library",
+        "name": "@babel/core",
+        "version": "^7.21.8",
+        "purl": "pkg:npm/@babel/core@^7.21.8",
+        "bom-ref": "npm/@babel/core@^7.21.8"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-env",
+        "version": "^7.21.5",
+        "purl": "pkg:npm/@babel/preset-env@^7.21.5",
+        "bom-ref": "npm/@babel/preset-env@^7.21.5"
+      },
+      {
+        "type": "library",
+        "name": "almond",
+        "version": "^0.3.3",
+        "purl": "pkg:npm/almond@^0.3.3",
+        "bom-ref": "npm/almond@^0.3.3"
+      },
+      {
+        "type": "library",
+        "name": "amdclean",
+        "version": "^2.7.0",
+        "purl": "pkg:npm/amdclean@^2.7.0",
+        "bom-ref": "npm/amdclean@^2.7.0"
+      },
+      {
+        "type": "library",
+        "name": "babel-loader",
+        "version": "^8.3.0",
+        "purl": "pkg:npm/babel-loader@^8.3.0",
+        "bom-ref": "npm/babel-loader@^8.3.0"
+      },
+      {
+        "type": "library",
+        "name": "babel-plugin-preval",
+        "version": "^3.0.1",
+        "purl": "pkg:npm/babel-plugin-preval@^3.0.1",
+        "bom-ref": "npm/babel-plugin-preval@^3.0.1"
+      },
+      {
+        "type": "library",
+        "name": "chai",
+        "version": "3.4.1",
+        "purl": "pkg:npm/chai@3.4.1",
+        "bom-ref": "npm/chai@3.4.1"
+      },
+      {
+        "type": "library",
+        "name": "eslint-config-prettier",
+        "version": "^6.15.0",
+        "purl": "pkg:npm/eslint-config-prettier@^6.15.0",
+        "bom-ref": "npm/eslint-config-prettier@^6.15.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-prettier",
+        "version": "^3.4.1",
+        "purl": "pkg:npm/eslint-plugin-prettier@^3.4.1",
+        "bom-ref": "npm/eslint-plugin-prettier@^3.4.1"
+      },
+      {
+        "type": "library",
+        "name": "grunt",
+        "version": "^1.6.1",
+        "purl": "pkg:npm/grunt@^1.6.1",
+        "bom-ref": "npm/grunt@^1.6.1"
+      },
+      {
+        "type": "library",
+        "name": "grunt-cli",
+        "version": "^1.4.3",
+        "purl": "pkg:npm/grunt-cli@^1.4.3",
+        "bom-ref": "npm/grunt-cli@^1.4.3"
+      },
+      {
+        "type": "library",
+        "name": "grunt-contrib-connect",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/grunt-contrib-connect@^3.0.0",
+        "bom-ref": "npm/grunt-contrib-connect@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "grunt-decomment",
+        "version": "^0.2.4",
+        "purl": "pkg:npm/grunt-decomment@^0.2.4",
+        "bom-ref": "npm/grunt-decomment@^0.2.4"
+      },
+      {
+        "type": "library",
+        "name": "grunt-eslint",
+        "version": "^20.2.0",
+        "purl": "pkg:npm/grunt-eslint@^20.2.0",
+        "bom-ref": "npm/grunt-eslint@^20.2.0"
+      },
+      {
+        "type": "library",
+        "name": "grunt-githooks",
+        "version": "^0.6.0",
+        "purl": "pkg:npm/grunt-githooks@^0.6.0",
+        "bom-ref": "npm/grunt-githooks@^0.6.0"
+      },
+      {
+        "type": "library",
+        "name": "grunt-mocha",
+        "version": "^1.2.0",
+        "purl": "pkg:npm/grunt-mocha@^1.2.0",
+        "bom-ref": "npm/grunt-mocha@^1.2.0"
+      },
+      {
+        "type": "library",
+        "name": "grunt-open",
+        "version": "^0.2.4",
+        "purl": "pkg:npm/grunt-open@^0.2.4",
+        "bom-ref": "npm/grunt-open@^0.2.4"
+      },
+      {
+        "type": "library",
+        "name": "grunt-webpack",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/grunt-webpack@^5.0.0",
+        "bom-ref": "npm/grunt-webpack@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "mocha",
+        "version": "^10.2.0",
+        "purl": "pkg:npm/mocha@^10.2.0",
+        "bom-ref": "npm/mocha@^10.2.0"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "^2.8.8",
+        "purl": "pkg:npm/prettier@^2.8.8",
+        "bom-ref": "npm/prettier@^2.8.8"
+      },
+      {
+        "type": "library",
+        "name": "raw-loader",
+        "version": "^4.0.2",
+        "purl": "pkg:npm/raw-loader@^4.0.2",
+        "bom-ref": "npm/raw-loader@^4.0.2"
+      },
+      {
+        "type": "library",
+        "name": "tslint-config-prettier",
+        "version": "^1.18.0",
+        "purl": "pkg:npm/tslint-config-prettier@^1.18.0",
+        "bom-ref": "npm/tslint-config-prettier@^1.18.0"
+      },
+      {
+        "type": "library",
+        "name": "uglify-loader",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/uglify-loader@^3.0.0",
+        "bom-ref": "npm/uglify-loader@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "uglifyjs-webpack-plugin",
+        "version": "^2.2.0",
+        "purl": "pkg:npm/uglifyjs-webpack-plugin@^2.2.0",
+        "bom-ref": "npm/uglifyjs-webpack-plugin@^2.2.0"
+      },
+      {
+        "type": "library",
+        "name": "webpack",
+        "version": "^4.46.0",
+        "purl": "pkg:npm/webpack@^4.46.0",
+        "bom-ref": "npm/webpack@^4.46.0"
+      },
+      {
+        "type": "library",
+        "name": "webpack-auto-inject-version",
+        "version": "^1.2.2",
+        "purl": "pkg:npm/webpack-auto-inject-version@^1.2.2",
+        "bom-ref": "npm/webpack-auto-inject-version@^1.2.2"
+      }
+    ]
+  },
+  "elapsed_seconds": 12.44
+}
